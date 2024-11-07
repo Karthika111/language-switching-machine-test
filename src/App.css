@@ -1,0 +1,118 @@
+/* src/App.css */
+
+/* Global Styles */
+.app {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.app-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.app-title {
+  font-size: 1.8rem;
+  color: #4a4ae2;
+}
+
+/* Main Content Styles */
+.app-main {
+  flex-grow: 1;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.app-intro {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.app-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #af4c91;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.app-button:hover {
+  background-color: #a07b45;
+}
+
+/* Footer Styles */
+.app-footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.app-contact {
+  color: #4ae270;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.app-contact:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .app-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .app-intro {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-title {
+    font-size: 1.4rem;
+  }
+
+  .app-button {
+    padding: 6px 12px;
+  }
+}
+.app-logo-flag {
+  font-size: 40px; /* Adjust flag size to fit like a logo */
+  margin-right: 10px; /* Spacing between flag and title */
+  vertical-align: middle;
+}
